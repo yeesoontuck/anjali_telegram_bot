@@ -1,0 +1,40 @@
+.idea
+.venv
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+.mypy_cache/
+.pytest_cache/
+*.egg
+*.whl
+*.tar.gz
+*.zip
+*.log
+.vscode/
+.idea/
+.DS_Store
+.env.local
+.env.*.local
+.Python
+db.sqlite3
+.envrc
+
+# Local configuration files
+config/local_settings.py
+
+# PyCharm specific files
+.idea/workspace.xml
+
+# VS Code specific files
+.vscode/settings.json
+
+# Jupyter Notebook checkpoints and metadata
+.ipynb_checkpoints/
