@@ -77,7 +77,7 @@ def get_latest_pdf_path():
     global latest_pdf_path
     return latest_pdf_path
 
-def create_pdf_output(text, filename="FinGPT_Response.pdf"):
+def create_pdf_output(text, filename="Telegram_AI_Response.pdf "):
     """
     Generate a PDF file containing the chatbot's response text.
     Saves the file temporarily and returns the file path.
