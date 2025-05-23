@@ -18,7 +18,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """
     Sends a greeting message when the user starts the bot with /start.
     """
-    await update.message.reply_text("Hi! Send me a message and I'll reply.")
+    await update.message.reply_text("Hey! I'm your personal finance assistant. How can I assist?")
 
 #--------------------------------------------------------------------------------------------------------
 # Text message handler: Handles general user text messages
