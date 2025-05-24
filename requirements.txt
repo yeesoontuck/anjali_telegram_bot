@@ -5,3 +5,4 @@ pandas
 fpdf
 gradio
 flask
+gunicorn
