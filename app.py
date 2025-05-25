@@ -45,5 +45,5 @@ def index():
     return "Flask app is running!"
 
 if __name__ == "__main__":
-    threading.Thread(target=app.run, kwargs={"debug": True, "use_reloader": False}, daemon=True).start()
+    # threading.Thread(target=app.run, kwargs={"debug": True, "use_reloader": False}, daemon=True).start()
     run_telegram_bot()
